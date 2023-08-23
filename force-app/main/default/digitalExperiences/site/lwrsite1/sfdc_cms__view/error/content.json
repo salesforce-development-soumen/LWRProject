@@ -1,0 +1,60 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Error",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"f7958ec2-6a0d-4a7d-bbca-94d9ba50c4d1\",\"columns\":[{\"UUID\":\"dd35c70f-bcad-4cfe-829f-94f6f8bbdf3a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<h1 style=\"text-align: center;\">Invalid Page</h1>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "7c4205fe-2fcd-448f-a61f-8de1db7c0bdc",
+              "type" : "component"
+            } ],
+            "id" : "dd35c70f-bcad-4cfe-829f-94f6f8bbdf3a",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "f7958ec2-6a0d-4a7d-bbca-94d9ba50c4d1",
+          "type" : "component"
+        } ],
+        "id" : "844f9a7f-5c28-471e-8280-88ba66b9cf46",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Error",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "336f8a9b-eee0-440f-874e-b4a0cba7b620",
+          "type" : "component"
+        } ],
+        "id" : "9e348a68-471a-40a8-a5a6-e816e2acd995",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "d3415bad-dce2-4766-9ccd-19fd32908635",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "error"
+  }
+}
